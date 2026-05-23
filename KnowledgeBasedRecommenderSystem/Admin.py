@@ -11,7 +11,7 @@ def admin_login():
             st.session_state['logged_in'] = True
             st.session_state['username'] = admin_user
             st.session_state['user_type'] = 'admin'
-            st.success("Admin Login successful! 🎉")
+            st.success("Admin Login successful!")
         else:
             st.error("Invalid Admin Username or Password.")
 
